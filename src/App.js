@@ -6,6 +6,7 @@ import Tut3 from './components/Tut3';
 import Tut4 from './components/Tut4';
 import Effect from './components/Effect';
 import Useref from './components/Useref';
+import Layout from './components/Layout';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Tut4/>
       <Effect/>
       <Useref/>
+      <Layout/>
     </div>
   );
 }
