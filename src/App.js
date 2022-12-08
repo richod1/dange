@@ -7,6 +7,8 @@ import Tut4 from './components/Tut4';
 import Effect from './components/Effect';
 import Useref from './components/Useref';
 import Layout from './components/Layout';
+import Context from './components/Context';
+import Usememo from './components/Usememo';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
       <Effect/>
       <Useref/>
       <Layout/>
+      <Context/>
+      <Usememo/>
     </div>
   );
 }
