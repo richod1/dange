@@ -1,12 +1,14 @@
 import React, { useRef,useState } from 'react'
 
 function Useref() {
-    const [name,setName]=useState('frimp');
+    const [name,setName]=useState('');
     const input=useRef(null);
 
     const onClick=()=>{
         // console.log(input.current.value);
         setName(input.current.value);
+        // const result=input.current.value="";
+        // setName(result);
     }
   return (
     <div>
