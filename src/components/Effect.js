@@ -9,7 +9,7 @@ function Effect() {
             // console.log(response.data);
             setValue(response.data[0].name);
         })
-    })
+    },[])
   return (
     <div>
    api is here:      {value}
